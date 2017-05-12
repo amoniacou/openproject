@@ -47,7 +47,7 @@
   };
 
   jQuery(function init(){
-    var select = jQuery('#user_auth_source_id');
+    var select = jQuery('#user_auth_source');
 
     select.on('change.toggleNewUserLogin', toggleLogin);
   });

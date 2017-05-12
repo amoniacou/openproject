@@ -61,6 +61,6 @@
 
   jQuery(function init(){
     jQuery('#user_assign_random_password').change(on_assign_random_password_change);
-    jQuery('#user_auth_source_id').on('change.togglePasswordFields', on_auth_source_change);
+    jQuery('#user_auth_source').on('change.togglePasswordFields', on_auth_source_change);
   });
 })();

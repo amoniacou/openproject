@@ -121,7 +121,7 @@ describe 'create users', type: :feature, selenium: true do
 
         it 'registers the user upon submission' do
           # login is already filled with 'bob'
-          fill_in 'password', with: 'dummy' # accepted by DummyAuthSource
+          fill_in 'user_password', with: 'dummy' # accepted by DummyAuthSource
 
           click_button 'Sign in'
 
