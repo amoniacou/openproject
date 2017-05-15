@@ -138,7 +138,7 @@ describe 'users/edit', type: :view do
         it 'does not show the auth source selection' do
           render
 
-          expect(rendered).not_to have_selector('#user_auth_source_id')
+          expect(rendered).not_to have_selector('#user_auth_source')
         end
       end
     end
@@ -164,7 +164,7 @@ describe 'users/edit', type: :view do
         it 'shows the auth source selection' do
           render
 
-          expect(rendered).to have_selector('#user_auth_source_id')
+          expect(rendered).to have_selector('#user_auth_source')
         end
       end
 
