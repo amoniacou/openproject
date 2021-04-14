@@ -47,7 +47,7 @@
     "@types/webpack-env": "^1.13.0",
     "URIjs": "^1.14.1",
     "amdefine": "^1.0.0",
-    "angular": "~1.5.9",
+    "angular": "~1.8.0",
     "angular-animate": "~1.5.9",
     "angular-aria": "~1.5.9",
     "angular-cache": "~4.6.0",
