@@ -106,7 +106,7 @@
     "typescript": "^2.2.1",
     "ui-select": "~0.19.6",
     "url-loader": "^0.5.7",
-    "webpack": "^2.2.0"
+    "webpack": "^5.94.0"
   },
   "scripts": {
     "postinstall": "./node_modules/.bin/webpack --colors --progress  --debug --config webpack-vendors-config.js",
